@@ -3,17 +3,17 @@ import Image from "gatsby-image"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
 import SocialLinks from "../constants/socialLinks"
-const query = graphql`
-  {
-    file(relativePath: { eq: "hero-img.jpg" }) {
-      childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
-`
+// const query = graphql`
+//   {
+//     file(relativePath: { eq: "hero-img.jpg" }) {
+//       childImageSharp {
+//         fluid {
+//           ...GatsbyImageSharpFluid
+//         }
+//       }
+//     }
+//   }
+// `
 
 const Hero = () => {
   const {
@@ -36,7 +36,7 @@ const Hero = () => {
             <SocialLinks styleClass="hero-links" />
           </div>
         </article>
-        <Image fluid={imgSrc} className="hero-img" />
+//         <Image fluid={imgSrc} className="hero-img" />
       </div>
     </header>
   )

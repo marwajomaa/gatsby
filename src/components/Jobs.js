@@ -26,7 +26,7 @@ const Jobs = () => {
   const {
     allStrapiJobs: { nodes: jobs },
   } = data
-  console.log(jobs[0], "fffffffffffffffff")
+
   const [value, setValue] = React.useState(0)
   const { company, date, position, desc } = jobs[value]
 

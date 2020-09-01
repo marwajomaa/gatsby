@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import Image from "gatsby-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 const Project = ({ description, github, index, stack, title, image }) => {
-  console.log(image, "iiiiiiiiiiiiii")
   return (
     <article className="project">
       {image && (

@@ -10,17 +10,12 @@ const data = [
   {
     id: 1,
     icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.facebook.com",
   },
   {
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
-    url: "https://www.twitter.com",
-  },
-  {
-    id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
-    url: "https://www.twitter.com",
+    url: "https://www.Linkedin.com",
   },
   {
     id: 4,
